@@ -6,7 +6,9 @@ image_resource:
   source: 
     repository: maven
     tag: 3.5.3-jdk-8-alpine
-
+inputs:
+  - name: resource-tutorial
+  
 run:
   path: ls
   args: 
