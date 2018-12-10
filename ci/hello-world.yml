@@ -10,9 +10,4 @@ inputs:
   - name: resource-tutorial
 
 run:
-  path: sh
-  args: 
-    - -exc
-    - |
-      ls -la resource-tutorial/*
-
+  path: resource-tutorial/ci/build.sh
