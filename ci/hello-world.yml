@@ -8,9 +8,9 @@ image_resource:
     tag: 3.5.3-jdk-8-alpine
 inputs:
   - name: resource-tutorial
-  
+
 run:
-  path: ls
-  args: 
-    - -la
+  path: /bin/bash
+  args:
+    - resource-tutorial/ci/build.sh
 
