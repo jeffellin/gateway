@@ -11,7 +11,5 @@ run:
   path: sh
   args: 
     - -exc
-    - |
-    cd resource-tutorial
-    mvn clean
+    - cd resource-tutorial && mvn clean
 
