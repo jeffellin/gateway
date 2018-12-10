@@ -1,0 +1,15 @@
+resources:
+- name: resource-tutorial
+  type: git
+  source:
+    uri: https://github.com/jeffellin/gateway.git
+    branch: master
+jobs:
+- name: job-hello-world
+  public: true
+  plan:
+  - get: resource-tutorial
+  - task: hello-world
+    file: ci/task_hello_world.yml
+
+
