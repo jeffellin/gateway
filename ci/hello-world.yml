@@ -9,8 +9,10 @@ image_resource:
 inputs:
   - name: resource-tutorial
 
+
 run:
   path: ls
-  args:
-    - -la 
+  args: 
+    - -la
+   
 
