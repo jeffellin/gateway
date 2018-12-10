@@ -2,7 +2,9 @@
 
 set -eux
 
+cd ../discovery
+
 pwd
 
-pushd resource-tutorial
+
 mvn clean package
