@@ -2,7 +2,7 @@
 
 set -eux
 
-cd ../discovery
+cd resource-tutorial/discovery
 
 pwd
 
