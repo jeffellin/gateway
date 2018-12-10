@@ -13,6 +13,6 @@ inputs:
 run:
   path: ls
   args: 
-    - -la
+    - -la resource-tutorial
    
 
