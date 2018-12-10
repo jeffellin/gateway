@@ -12,5 +12,5 @@ inputs:
 run:
   path: ls
   args:
-    - -la /*
+    - -la 
 
