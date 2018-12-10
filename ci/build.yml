@@ -9,6 +9,7 @@ jobs:
   public: true
   plan:
   - get: resource-tutorial
+    trigger: true
   - task: hello-world
     file: resource-tutorial/ci/hello-world.yml
 
