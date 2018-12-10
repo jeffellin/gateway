@@ -8,8 +8,7 @@ image_resource:
     tag: 3.5.3-jdk-8-alpine
 
 run:
-  path: sh
+  path: ls
   args: 
-    - -exc
-    - cd resource-tutorial && mvn clean
+    - -la
 
