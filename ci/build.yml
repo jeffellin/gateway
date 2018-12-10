@@ -10,6 +10,6 @@ jobs:
   plan:
   - get: resource-tutorial
   - task: hello-world
-    file: ci/task_hello_world.yml
+    file: resource-tutorial/ci/hello-world.yml
 
 
