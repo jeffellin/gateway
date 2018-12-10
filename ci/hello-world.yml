@@ -14,5 +14,5 @@ run:
   args: 
     - -exc
     - |
-      lS -la resource-tutorial
+      ls -la resource-tutorial
 
